@@ -1,0 +1,40 @@
+# Question 1
+print(True+True-False)
+
+# Question 2
+lt = True
+lt = lt & lt
+lt = lt | (lt - lt)
+print(lt)
+
+# Question 5
+string = "E. Coli"
+print(string[2])
+
+# Question 6
+string = "I Bove python"
+string[2] = "L"
+
+# Question 7
+Medication = 5
+print(type(Medication))
+
+# Question 8
+weight_kg = 60
+height_m = 1.58
+bmi = float(weight_kg/(height_m**2))
+print(bmi)
+
+# Question 9
+a = 2
+b = 3
+print(a+b)
+
+c = "hello"
+d = "world"
+print(c+d)
+
+# Question 10
+s1 = "7"
+s2 = "3"
+print(s1+s2)
