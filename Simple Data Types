@@ -1,31 +1,52 @@
 # Question 1
+## boolean True + boolean True - boolean False = ?
 print(True+True-False)
 
 # Question 2
+## logical tracker = True
+## logical tracker = logical tracker & logical tracker
+## logical tracker = logical tracker | (logical tracker - logical tracker)
+## logical tracker  = ?
+
 lt = True
 lt = lt & lt
 lt = lt | (lt - lt)
 print(lt)
 
 # Question 5
+## string = "E. Coli"
+## string[2]=
+
 string = "E. Coli"
 print(string[2])
 
 # Question 6
+## Oh no! My string has a typo!
+## string = "I Bove python"
+## No worries though. I'll just fix that.
+## string[2]="L"
+
 string = "I Bove python"
 string[2] = "L"
 
 # Question 7
+## Jack has been prescribed 5 medications, write a variable named "Medication", and store in it the number of medications he has. 
+## Print the type of the variable ''Medication".
+
 Medication = 5
 print(type(Medication))
 
 # Question 8
+## Susan has a weight of 60 kilograms and a height of 1.58 meters. Write Code to Calculate and Print Susan’s Body Mass Index as float.
+
 weight_kg = 60
 height_m = 1.58
 bmi = float(weight_kg/(height_m**2))
 print(bmi)
 
 # Question 9
+## Explain how the "+", addition operation works differently for integers and strings.
+
 a = 2
 b = 3
 print(a+b)
@@ -35,6 +56,8 @@ d = "world"
 print(c+d)
 
 # Question 10
+## Type the output if the strings "7" and "3" are added.
+
 s1 = "7"
 s2 = "3"
 print(s1+s2)
